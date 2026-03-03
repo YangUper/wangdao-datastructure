@@ -40,7 +40,7 @@ void printList(const SqList& list){
     cout << "\n";
 }
 
-void reverseTowLists(SqList& list, int m, int n){
+void reverseTwoLists(SqList& list, int m, int n){
     int p1 = 0, p2 = m - 1;
     int t;
     while (p1 < p2){
