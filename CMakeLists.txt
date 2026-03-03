@@ -5,4 +5,5 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(
         线性表/p20-1.cpp
-        线性表/p20-2.cpp)
+        线性表/p20-2.cpp
+        线性表/p20-3.cpp)
