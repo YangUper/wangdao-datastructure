@@ -23,7 +23,7 @@ using namespace std;
 typedef struct LNode{
     char data;
     LNode* next;
-    LNode(int val = 0): data(val), next(nullptr){}
+    LNode(char val = 0): data(val), next(nullptr){}
 }*LinkList;
 
 LinkList CreateList(const vector<char>& nums) {
